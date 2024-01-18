@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Журнал оценок</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .navbar-brand {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nav-item {
+            margin-left: 10px;
+        }
+
+        .container {
+            margin-top: 70px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Эл.Дневник pohebeyy</a>
+
+            <a class="nav-link active" aria-current="page" href="/scedule">Расписание</a>
+            <a class="nav-link active" aria-current="page" href="/journal">Журнал</a>
+            <a class="nav-link active" aria-current="page" href="/author">Создатели</a>
+            <a class="nav-limk active" aria-current="page" href="/teacher">Для учителей</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Журнал оценок</h1>
+    <table>
+        <tr>
+            <th>Предмет</th>
+            <th>Оценка</th>
+            <th>Дата</th>
+        </tr>
+        <tr>
+            <td>Математика</td>
+            <td>5</td>
+            <td>Сегодня</td>
+        </tr>
+        <tr>
+            <td>Физика</td>
+            <td>4</td>
+            <td>Сегодня</td>
+        </tr>
+        <tr>
+            <td>История</td>
+            <td>3</td>
+            <td>Сегодня</td>
+        </tr>
+        <tr>
+            <td>Программирование</td>
+            <td>3</td>
+            <td>Сегодня</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
